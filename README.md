@@ -355,8 +355,6 @@ PATCH '/actors/${id}'
 }
 ```
 
-## Deployment
-
 ## Authors
 Mostafa Alaa
 
