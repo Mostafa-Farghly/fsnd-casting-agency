@@ -4,6 +4,7 @@
 ## Casting Agency
 
 The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. This project creates a system to simplify and streamline the process.
+The app is hosted on [Heroku](https://www.heroku.com/platform) at `https://mostafa-casting-agency.herokuapp.com/`
 
 ## Getting Started
 
@@ -147,8 +148,8 @@ python3 test_app.py
 ## API Refrence
 
 ### Getting Started
-- Base URL: The app is hosted at `http://127.0.0.1:5000/` 
-- Authentication: This version of the application does not require authentication or API keys.
+- Base URL: The app is hosted at `https://mostafa-casting-agency.herokuapp.com/` 
+- Authentication: This version of the application require authentication. When logging in to `https://dev-weuazke8.us.auth0.com/authorize?audience=castingagency&response_type=token&client_id=Hk1Bul95ANqkTxKNcvwqLhOowYYvG6WJ&redirect_uri=https://127.0.0.1:8080/login-results`, the token can be used to access the api, as it has the required permission based on the user's role.
 
 ### Error Handling
 Errors are returned as JSON objects in the following format:
