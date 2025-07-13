@@ -39,6 +39,6 @@ SecretStorage==2.3.1
 six==1.16.0
 SQLAlchemy==1.4.23
 typing-extensions==3.10.0.2
-urllib3==1.26.7
+urllib3==2.5.0
 Werkzeug==2.0.1
 zipp==3.5.0
